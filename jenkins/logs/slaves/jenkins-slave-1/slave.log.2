@@ -1,6 +1,6 @@
 Warning: no key algorithms provided; JENKINS-42959 disabled
 SSHLauncher{host='172.31.46.230', port=22, credentialsId='9f14938c-7a5c-4611-a2a6-3c0e271033d6', jvmOptions='', javaPath='', prefixStartSlaveCmd='', suffixStartSlaveCmd='', launchTimeoutSeconds=210, maxNumRetries=10, retryWaitTime=15, sshHostKeyVerificationStrategy=hudson.plugins.sshslaves.verifiers.KnownHostsFileKeyVerificationStrategy, tcpNoDelay=true, trackCredentials=true}
-[07/15/19 16:30:08] [SSH] Opening SSH connection to 172.31.46.230:22.
+[07/15/19 16:56:08] [SSH] Opening SSH connection to 172.31.46.230:22.
 No route to host (Host unreachable)
 SSH Connection failed with IOException: "No route to host (Host unreachable)", retrying in 15 seconds.  There are 10 more retries left.
 No route to host (Host unreachable)
@@ -43,5 +43,5 @@ Caused by: java.net.NoRouteToHostException: No route to host (Host unreachable)
 	at com.trilead.ssh2.transport.TransportManager.initialize(TransportManager.java:480)
 	at com.trilead.ssh2.Connection.connect(Connection.java:698)
 	... 7 more
-[07/15/19 16:33:13] Launch failed - cleaning up connection
-[07/15/19 16:33:13] [SSH] Connection closed.
+[07/15/19 16:59:13] Launch failed - cleaning up connection
+[07/15/19 16:59:13] [SSH] Connection closed.
