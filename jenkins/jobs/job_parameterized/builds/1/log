@@ -1,0 +1,9 @@
+Started by user [8mha:////4CkPr93lViiIhJDfLbOKD17nwddLeGQtBSusTBXxy5n7AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZ+/dLi1CL9ysTijMTipJxsAKHMpUPEAAAA[0myashaswini
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/job_parameterized
+[job_parameterized] $ /bin/sh -xe /tmp/jenkins5882290411623754566.sh
++ echo yashaswini
+yashaswini
++ echo 'this is envt variable added in jenkins : 1234'
+this is envt variable added in jenkins : 1234
+Finished: SUCCESS

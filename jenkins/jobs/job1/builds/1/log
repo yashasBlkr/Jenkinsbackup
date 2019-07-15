@@ -1,0 +1,28 @@
+Started by user [8mha:////4CkPr93lViiIhJDfLbOKD17nwddLeGQtBSusTBXxy5n7AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZ+/dLi1CL9ysTijMTipJxsAKHMpUPEAAAA[0myashaswini
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/job1
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/yashasBlk/remote1.git
+ > git init /var/lib/jenkins/workspace/job1 # timeout=10
+Fetching upstream changes from https://github.com/yashasBlk/remote1.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/yashasBlk/remote1.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/yashasBlk/remote1.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/yashasBlk/remote1.git # timeout=10
+Fetching upstream changes from https://github.com/yashasBlk/remote1.git
+ > git fetch --tags --progress https://github.com/yashasBlk/remote1.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 4785c8586b07907b0e63280287750d3dd7cfe83e (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4785c8586b07907b0e63280287750d3dd7cfe83e
+Commit message: "modified makefile"
+First time build. Skipping changelog.
+[job1] $ /bin/sh -xe /tmp/jenkins1390495664067543376.sh
++ cd /var/lib/jenkins/jobs
++ make
+make: *** No targets specified and no makefile found.  Stop.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

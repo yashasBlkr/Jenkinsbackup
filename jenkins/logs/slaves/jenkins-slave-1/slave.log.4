@@ -1,0 +1,47 @@
+Warning: no key algorithms provided; JENKINS-42959 disabled
+SSHLauncher{host='172.31.46.230', port=22, credentialsId='9f14938c-7a5c-4611-a2a6-3c0e271033d6', jvmOptions='', javaPath='', prefixStartSlaveCmd='', suffixStartSlaveCmd='', launchTimeoutSeconds=210, maxNumRetries=10, retryWaitTime=15, sshHostKeyVerificationStrategy=hudson.plugins.sshslaves.verifiers.KnownHostsFileKeyVerificationStrategy, tcpNoDelay=true, trackCredentials=true}
+[07/15/19 14:49:08] [SSH] Opening SSH connection to 172.31.46.230:22.
+No route to host (Host unreachable)
+SSH Connection failed with IOException: "No route to host (Host unreachable)", retrying in 15 seconds.  There are 10 more retries left.
+No route to host (Host unreachable)
+SSH Connection failed with IOException: "No route to host (Host unreachable)", retrying in 15 seconds.  There are 9 more retries left.
+No route to host (Host unreachable)
+SSH Connection failed with IOException: "No route to host (Host unreachable)", retrying in 15 seconds.  There are 8 more retries left.
+No route to host (Host unreachable)
+SSH Connection failed with IOException: "No route to host (Host unreachable)", retrying in 15 seconds.  There are 7 more retries left.
+No route to host (Host unreachable)
+SSH Connection failed with IOException: "No route to host (Host unreachable)", retrying in 15 seconds.  There are 6 more retries left.
+No route to host (Host unreachable)
+SSH Connection failed with IOException: "No route to host (Host unreachable)", retrying in 15 seconds.  There are 5 more retries left.
+No route to host (Host unreachable)
+SSH Connection failed with IOException: "No route to host (Host unreachable)", retrying in 15 seconds.  There are 4 more retries left.
+No route to host (Host unreachable)
+SSH Connection failed with IOException: "No route to host (Host unreachable)", retrying in 15 seconds.  There are 3 more retries left.
+No route to host (Host unreachable)
+SSH Connection failed with IOException: "No route to host (Host unreachable)", retrying in 15 seconds.  There are 2 more retries left.
+No route to host (Host unreachable)
+SSH Connection failed with IOException: "No route to host (Host unreachable)", retrying in 15 seconds.  There are 1 more retries left.
+No route to host (Host unreachable)
+SSH Connection failed with IOException: "No route to host (Host unreachable)".
+java.io.IOException: There was a problem while connecting to 172.31.46.230:22
+	at com.trilead.ssh2.Connection.connect(Connection.java:758)
+	at hudson.plugins.sshslaves.SSHLauncher.openConnection(SSHLauncher.java:817)
+	at hudson.plugins.sshslaves.SSHLauncher$1.call(SSHLauncher.java:419)
+	at hudson.plugins.sshslaves.SSHLauncher$1.call(SSHLauncher.java:406)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.NoRouteToHostException: No route to host (Host unreachable)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.trilead.ssh2.transport.TransportManager.establishConnection(TransportManager.java:367)
+	at com.trilead.ssh2.transport.TransportManager.initialize(TransportManager.java:480)
+	at com.trilead.ssh2.Connection.connect(Connection.java:698)
+	... 7 more
+[07/15/19 14:52:13] Launch failed - cleaning up connection
+[07/15/19 14:52:13] [SSH] Connection closed.

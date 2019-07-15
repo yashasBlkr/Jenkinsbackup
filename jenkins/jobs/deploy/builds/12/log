@@ -1,0 +1,14 @@
+Started by upstream project "[8mha:////4F45TsPbTytE1q2eSD3yaQXgEyXwmAaZUW/uaZcKQzWtAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JP2k0sycFH0AsN5xmMAAAAA=[0mbuild" build number [8mha:////4Erm1hVGD0wSNs88yk/b93C3MRy5O0opYOulC10w/0qaAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBh79rPwk/aTSzJwUfXMAD8IECMEAAAA=[0m7
+originally caused by:
+ Started by GitHub push by yashasBlk
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/deploy
+[deploy] $ /bin/sh -xe /tmp/jenkins1763214963054550457.sh
++ cd /var/lib/jenkins/workspace/deploy
++ cp /var/lib/jenkins/workspace/build/ABC.exe /var/lib/jenkins/workspace/deploy
++ '[' -e ABC.exe ']'
++ echo 'deploy success'
+deploy success
++ exit 0
+Triggering a new build of [8mha:////4OV9uAxMgRzuhTU0qodbTQ+pv9lunJrh80/yYbKtuswuAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP2S1OKSeC8gAwCggFgowwAAAA==[0mtest_Job
+Finished: SUCCESS

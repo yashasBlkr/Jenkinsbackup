@@ -1,0 +1,44 @@
+Started by user [8mha:////4CkPr93lViiIhJDfLbOKD17nwddLeGQtBSusTBXxy5n7AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZ+/dLi1CL9ysTijMTipJxsAKHMpUPEAAAA[0myashaswini
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/build
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/yashasBlk/remote1.git # timeout=10
+Fetching upstream changes from https://github.com/yashasBlk/remote1.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/yashasBlk/remote1.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 23843a2ce26e4ffb4b220755a9e6f9b26c8fa761 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 23843a2ce26e4ffb4b220755a9e6f9b26c8fa761
+Commit message: "deleted .exe"
+ > git rev-list --no-walk 23843a2ce26e4ffb4b220755a9e6f9b26c8fa761 # timeout=10
+[build] $ /bin/sh -xe /tmp/jenkins4322663743286321965.sh
++ cd /var/lib/jenkins/workspace/build
++ make
+cc    -c -o main.o main.c
+main.c: In function ‘main’:
+main.c:3:1: warning: implicit declaration of function ‘factorial’ [-Wimplicit-function-declaration]
+ factorial();
+ ^~~~~~~~~
+main.c:4:1: warning: implicit declaration of function ‘big’ [-Wimplicit-function-declaration]
+ big();
+ ^~~
+main.c:5:1: warning: implicit declaration of function ‘palindrome’ [-Wimplicit-function-declaration]
+ palindrome();
+ ^~~~~~~~~~
+main.c:6:1: warning: implicit declaration of function ‘reverse’ [-Wimplicit-function-declaration]
+ reverse();
+ ^~~~~~~
+gcc -c fact.c
+gcc -c big3.c
+gcc -c palin.c
+gcc -c rev.c
+gcc -o ABC.exe main.o fact.o big3.o palin.o rev.o
++ '[' 0 -ne 0 ']'
++ make clean
+rm -rf *.o
+Triggering a new build of [8mha:////4BkhFlX5LjXaVluXMZM4URVkEh0PXXkzxnIVmnymwPj+AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2U1IKc/Ep9AE110wvBAAAA[0mdeploy
+Finished: SUCCESS

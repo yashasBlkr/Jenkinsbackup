@@ -1,0 +1,10 @@
+Started by upstream project "[8mha:////4F45TsPbTytE1q2eSD3yaQXgEyXwmAaZUW/uaZcKQzWtAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JP2k0sycFH0AsN5xmMAAAAA=[0mbuild" build number [8mha:////4Cf+iRAKG2U83cDY+uR7nBZANv307NX6DMhtcOOQmuMOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBh79rPwk/aTSzJwUfTMAmfIDf8EAAAA=[0m6
+originally caused by:
+ Started by user [8mha:////4CkPr93lViiIhJDfLbOKD17nwddLeGQtBSusTBXxy5n7AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZ+/dLi1CL9ysTijMTipJxsAKHMpUPEAAAA[0myashaswini
+Running as SYSTEM
+Building remotely on [8mha:////4PMPkRNsIuQzL1kmSmVoR8QlVXjzGIk91lWsy9l6MN3XAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZJ/eT83ILSktQi/azUvOzMvGLd4pzEslRdIwCvJ2/IzgAAAA==[0mjenkins-slave-2 (C_build) in workspace /home/jenkins-slave-2/workspace/deploy
+[deploy] $ /bin/sh -xe /tmp/jenkins4781795264178938747.sh
++ cd /var/lib/jenkins/workspace/deploy
+/tmp/jenkins4781795264178938747.sh: line 2: cd: /var/lib/jenkins/workspace/deploy: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

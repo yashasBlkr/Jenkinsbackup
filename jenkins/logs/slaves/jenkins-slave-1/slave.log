@@ -1,0 +1,19 @@
+Warning: no key algorithms provided; JENKINS-42959 disabled
+SSHLauncher{host='172.31.46.230', port=22, credentialsId='9f14938c-7a5c-4611-a2a6-3c0e271033d6', jvmOptions='', javaPath='', prefixStartSlaveCmd='', suffixStartSlaveCmd='', launchTimeoutSeconds=210, maxNumRetries=10, retryWaitTime=15, sshHostKeyVerificationStrategy=hudson.plugins.sshslaves.verifiers.KnownHostsFileKeyVerificationStrategy, tcpNoDelay=true, trackCredentials=true}
+[07/15/19 15:39:08] [SSH] Opening SSH connection to 172.31.46.230:22.
+No route to host (Host unreachable)
+SSH Connection failed with IOException: "No route to host (Host unreachable)", retrying in 15 seconds.  There are 10 more retries left.
+No route to host (Host unreachable)
+SSH Connection failed with IOException: "No route to host (Host unreachable)", retrying in 15 seconds.  There are 9 more retries left.
+No route to host (Host unreachable)
+SSH Connection failed with IOException: "No route to host (Host unreachable)", retrying in 15 seconds.  There are 8 more retries left.
+No route to host (Host unreachable)
+SSH Connection failed with IOException: "No route to host (Host unreachable)", retrying in 15 seconds.  There are 7 more retries left.
+No route to host (Host unreachable)
+SSH Connection failed with IOException: "No route to host (Host unreachable)", retrying in 15 seconds.  There are 6 more retries left.
+No route to host (Host unreachable)
+SSH Connection failed with IOException: "No route to host (Host unreachable)", retrying in 15 seconds.  There are 5 more retries left.
+No route to host (Host unreachable)
+SSH Connection failed with IOException: "No route to host (Host unreachable)", retrying in 15 seconds.  There are 4 more retries left.
+No route to host (Host unreachable)
+SSH Connection failed with IOException: "No route to host (Host unreachable)", retrying in 15 seconds.  There are 3 more retries left.

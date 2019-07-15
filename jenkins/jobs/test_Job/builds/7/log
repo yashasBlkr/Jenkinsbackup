@@ -1,0 +1,10 @@
+Started by user [8mha:////4CkPr93lViiIhJDfLbOKD17nwddLeGQtBSusTBXxy5n7AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZ+/dLi1CL9ysTijMTipJxsAKHMpUPEAAAA[0myashaswini
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/test_Job
+[test_Job] $ /bin/sh -xe /tmp/jenkins4994881784642458445.sh
++ '[' 0 -eq 0 ']'
++ mail -s 'BUILD DEPLOY TEST Success' yashasyb7@gmail.com
+Null message body; hope that's ok
++ echo 'build deploy and test  success'
+build deploy and test  success
+Finished: SUCCESS

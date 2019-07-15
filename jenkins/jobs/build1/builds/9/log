@@ -1,0 +1,61 @@
+Started by an SCM change
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/build1
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/yashasBlk/remote1.git
+ > git init /var/lib/jenkins/workspace/build1 # timeout=10
+Fetching upstream changes from https://github.com/yashasBlk/remote1.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/yashasBlk/remote1.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/yashasBlk/remote1.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/yashasBlk/remote1.git # timeout=10
+Fetching upstream changes from https://github.com/yashasBlk/remote1.git
+ > git fetch --tags --progress https://github.com/yashasBlk/remote1.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 582811309a79b5526fa59a5ef52feb6efa264c4b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 582811309a79b5526fa59a5ef52feb6efa264c4b
+Commit message: "modified to check webhook"
+ > git rev-list --no-walk 23843a2ce26e4ffb4b220755a9e6f9b26c8fa761 # timeout=10
+[build1] $ /bin/sh -xe /tmp/jenkins2482167098288853606.sh
++ cd /home/jenkins-slave-1/workspace/build1
+/tmp/jenkins2482167098288853606.sh: line 2: cd: /home/jenkins-slave-1/workspace/build1: No such file or directory
+Build step 'Execute shell' marked build as failure
+Sending e-mails to: yashasyb7@gmail.com
+ERROR: Could not connect to SMTP host: smtp.gmail.com, port: 465
+javax.mail.MessagingException: Could not connect to SMTP host: smtp.gmail.com, port: 465;
+  nested exception is:
+	javax.net.ssl.SSLHandshakeException: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1934)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:638)
+	at javax.mail.Service.connect(Service.java:317)
+	at javax.mail.Service.connect(Service.java:176)
+	at javax.mail.Service.connect(Service.java:125)
+	at javax.mail.Transport.send0(Transport.java:194)
+	at javax.mail.Transport.send(Transport.java:124)
+	at hudson.tasks.MailSender.run(MailSender.java:131)
+	at hudson.tasks.Mailer.perform(Mailer.java:173)
+	at hudson.tasks.Mailer.perform(Mailer.java:136)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:741)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:690)
+	at hudson.model.Build$BuildExecution.post2(Build.java:186)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:635)
+	at hudson.model.Run.execute(Run.java:1843)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+Caused by: javax.net.ssl.SSLHandshakeException: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+	at sun.security.ssl.Handshaker.activate(Handshaker.java:509)
+	at sun.security.ssl.SSLSocketImpl.kickstartHandshake(SSLSocketImpl.java:1474)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1346)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1395)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1379)
+	at com.sun.mail.util.SocketFetcher.configureSSLSocket(SocketFetcher.java:507)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:238)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1900)
+	... 18 more
+Finished: FAILURE

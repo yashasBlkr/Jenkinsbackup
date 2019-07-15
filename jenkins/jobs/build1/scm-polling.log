@@ -1,0 +1,10 @@
+Started on Jul 15, 2019 3:22:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 582811309a79b5526fa59a5ef52feb6efa264c4b (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h https://github.com/yashasBlk/remote1.git # timeout=10
+Found 3 remote heads on https://github.com/yashasBlk/remote1.git
+[poll] Latest remote head revision on refs/heads/master is: 582811309a79b5526fa59a5ef52feb6efa264c4b - already built by 10
+Done. Took 0.16 sec
+No changes
